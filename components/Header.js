@@ -23,7 +23,7 @@ const Header = () => {
     return (
         <div className='px-5 py-5 md:px-12 lg:px-28'>
             <div className='flex justify-between items-center'>
-            <p class="text-4xl font-bold bg-gray-500 text-white px-4 py-2 rounded shadow-lg inline-block">
+            <p className="text-4xl font-bold bg-gray-500 text-white px-4 py-2 rounded shadow-lg inline-block">
   Blogger
 </p>
 
