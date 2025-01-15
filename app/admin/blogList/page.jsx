@@ -3,23 +3,28 @@ import BlogTableItem from '@/components/adminComponents/BlogTableItem'
 import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import { toast } from 'react-toastify';
-
-const page = () => {
-    const [blogs, setBlogs] = useState([]);
-    const fetchBlogs = async () => {
+const fetchBlogs = async () => {
+    try {
         const response = await axios.get('/api/blog');
         setBlogs(response.data.blogs);
+    } catch (error) {
+        console.error("Error fetching blogs:", error.message);
+        toast.error("Failed to fetch blogs");
     }
+};
 
-    const deleteBlog = async (mongoId) => {
+const deleteBlog = async (mongoId) => {
+    try {
         const response = await axios.delete('/api/blog', {
-            params: {
-                id: mongoId
-            }
-        })
+            params: { id: mongoId }
+        });
         toast.success(response.data.msg);
         fetchBlogs();
+    } catch (error) {
+        console.error("Error deleting blog:", error.message);
+        toast.error("Failed to delete blog");
     }
+
 
     useEffect(() => {
         fetchBlogs();
