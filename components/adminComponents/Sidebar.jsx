@@ -7,7 +7,9 @@ const Sidebar = () => {
     return (
         <div className='flex flex-col bg-slate-100'>
             <div className='px-2 sm:pl-14 py-3 border border-black'>
-                <Image src={assets.logo} alt=""/>
+            <p className="text-4xl font-bold bg-gray-500 text-white px-4 py-2 rounded shadow-lg inline-block">
+  Blogger
+</p>
             </div>
             {/* navigation buttons*/}
             <div className='w-28 sm:w-80 h-[100vh] relative py-12 border border-black'>
