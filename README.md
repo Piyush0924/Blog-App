@@ -21,7 +21,7 @@ CSS/Tailwind CSS: Styling framework for responsive and modern design.
 1. **Clone the Repository:**
 
    ```bash
-   git clone gh repo clone https://github.com/Piyush0924/Blog-App
+   git clone gh repo clone https://github.com/Piyush0924/Blog_App_Unified_Mentor
 .git
    ```
 
@@ -29,7 +29,7 @@ CSS/Tailwind CSS: Styling framework for responsive and modern design.
 
    ```bash
    npm i
-   cd Blog-App_Unified_Mentor && npm i
+   cd Blog_App_Unified_Mentor && npm i
    ```
 
 3. **Running the Project Locally:** Navigate to the project's root directory and run the following commands
