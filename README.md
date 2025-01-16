@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Description
+The Blog App is a modern, responsive web application built using Vite and Next.js. It allows users to create, view, and manage blog posts. The app features an intuitive user interface, seamless navigation, and a rich set of features tailored for blogging.
 
-## Getting Started
+Features
+Fast and Optimized: Built using Vite for blazing-fast builds and development.
+Dynamic Blog Management: Add, edit, and delete blog posts with ease.
+Image Uploads: Upload images for blog thumbnails using file upload functionality.
+Category Filtering: Organize blogs by categories for better discoverability.
+Responsive Design: Fully optimized for mobile, tablet, and desktop devices.
+Toast Notifications: User-friendly feedback for actions like submission and errors.
+Tech Stack
+Vite: Frontend build tool for fast development and optimized builds.
+Next.js: React framework with server-side rendering and routing capabilities.
+React: Component-based library for building user interfaces.
+Axios: For handling API requests.
+Toastify: For displaying notifications.
+CSS/Tailwind CSS: Styling framework for responsive and modern design.
 
-First, run the development server:
+## How to Run
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Clone the Repository:**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+   git clone gh repo clone https://github.com/Piyush0924/Blog-App
+.git
+   ```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+2. **Install the dependencies:**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+   ```bash
+   npm i
+   cd Blog-App_Unified_Mentor && npm i
+   ```
 
-## Learn More
+3. **Running the Project Locally:** Navigate to the project's root directory and run the following commands
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   # Run the react frontend
+   npm run dev
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+How It Works
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Blog Submission: Users can add blog posts with title, description, category, and an image.
+API Integration: Handles backend communication for CRUD operations using Axios.
+Dynamic Routing: Pages like blog details are dynamically generated using Next.js routing.
+Deployment
+The project can be deployed on platforms like Vercel, Netlify, or GitHub Pages.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+Deploy to Vercel:
+
+Link the GitHub repository to Vercel.
+
+
+
+Email: piyushpakmode0924@gmail.com
+LinkedIn: www.linkedin.com/in/contact-piyush-pakmode/
